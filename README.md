@@ -14,6 +14,19 @@ Here is an short exerpt suited for the `codeml` program:
 Parameter names described in [PAML's manual][3] are highlighted, and comments
 recognized as such.
 
+# Warning
+
+The autodetection of the filetype works for all files with `.ctl` extension. I
+don't use this extension for another purpose but if you do, modify accordingly
+the `ftdetect/PAML.vim` commands.
+
+# Installing
+
+I personally use [Tim Pope's Pathogen](https://github.com/tpope/vim-pathogen)
+as my plugin manager (and recommend it).
+
+With Pathogen, simply clone this repository inside `~/.vim/bundle/`.
+
 # Disclaimer
 
 Likely buggy, but it fits my needs so far.
